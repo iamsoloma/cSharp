@@ -1,7 +1,6 @@
 ﻿
 using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace cSharp;
 
@@ -35,6 +34,48 @@ public class Book
 public class Library
 {
     private readonly List<Book> books = new List<Book>();
+
+    private class NameComparer : IComparer<Book>
+    {
+        public int Compare(Book a, Book b)
+        {
+            return string.Compare(
+                a.Name, b.Name,
+                StringComparison.CurrentCulture
+            );
+        }
+    }
+
+    private class AuthorComparer : IComparer<Book>
+    {
+        public int Compare(Book a, Book b)
+        {
+            return string.Compare(
+                a.Author, b.Author,
+                StringComparison.CurrentCulture
+            );
+        }
+    }
+
+    private class GenreComparer : IComparer<Book>
+    {
+        public int Compare(Book a, Book b)
+        {
+            return string.Compare(
+                a.Genre, b.Genre,
+                StringComparison.CurrentCulture
+            );
+        }
+    }
+
+    private class DateComparer : IComparer<Book>
+    {
+        public int Compare(Book a, Book b)
+        {
+            return a.PublisDate.CompareTo(b.PublisDate);
+        }
+    }
+
     public void Add(Book book)
     {
         if (book == null)
@@ -81,6 +122,42 @@ public class Library
         return result;
     }
 
+    public void SortByName()
+    {
+        if (books.Count == 0)
+        {
+            return;
+        }
+        books.Sort(new NameComparer());
+    }
+
+    public void SortByAuthor()
+    {
+        if (books.Count == 0)
+        {
+            return;
+        }
+        books.Sort(new AuthorComparer());
+    }
+
+    public void SortByGenre()
+    {
+        if (books.Count == 0)
+        {
+            return;
+        }
+        books.Sort(new GenreComparer());
+    }
+
+    public void SortByDate()
+    {
+        if (books.Count == 0)
+        {
+            return;
+        }
+        books.Sort(new DateComparer());
+    }
+    
     public Book[] GetAllBooks()
     {
         return books.ToArray();
