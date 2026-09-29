@@ -25,9 +25,9 @@ public class Book
         }
         else
         {
-            displayDate = PublisDate.ToString();
+            displayDate = PublisDate.Year.ToString(); //PublisDate.ToString();
         }
-        return $"{displayAuthor}[{displayDate}]: {displayName} - {displayGenre}";
+        return $"{displayAuthor}[{displayDate} год]: {displayName} - {displayGenre}";
     }
 }
 
@@ -157,7 +157,7 @@ public class Library
         }
         books.Sort(new DateComparer());
     }
-    
+
     public Book[] GetAllBooks()
     {
         return books.ToArray();
@@ -168,8 +168,187 @@ internal class Program
 {
     static void Main(string[] args)
     {
+        Library library = new Library();
+        string[] menu = { "Добавить книгу", "Удалить книгу", "Показать все книги", "Найти книгу", "Сортировать книги", "Выход" };
 
-        Console.Write("Привет мир!");
+        int selected = 0;
+        ConsoleKeyInfo key;
 
+        while (true)
+        {
+            Console.Clear();
+            for (int i = 0; i < menu.Length; i++)
+            {
+                if (i == selected)
+                {
+                    Console.BackgroundColor = ConsoleColor.DarkRed;
+                    Console.WriteLine("> " + menu[i]);
+                    Console.ResetColor();
+                }
+                else
+                {
+                    Console.WriteLine(" " + menu[i]);
+                }
+            }
+            Console.WriteLine("\n(Используйте стрелки ↑↓ для навигации, Enter - выбор, Esc - выход)");
+            key = Console.ReadKey(true);
+
+            if (key.Key == ConsoleKey.UpArrow && selected > 0)
+            {
+                selected--;
+            }
+
+            if (key.Key == ConsoleKey.DownArrow && selected < menu.Length - 1)
+            {
+                selected++;
+            }
+
+            if (key.Key == ConsoleKey.Enter)
+            {
+                switch (selected)
+                {
+                    case 0: AddBookMenu(library); break;
+                    case 1: DeleteBookMenu(library); break;
+                    case 2: ShowAllBooks(library); break;
+                    case 3: FindBooksMenu(library); break;
+                    case 4: SortBooksMenu(library); break;
+                    case 5: return;
+                }
+            }
+            if (key.Key == ConsoleKey.Escape)
+            {
+                break;
+            }
+        }
+        static void AddBookMenu(Library library)
+        {
+            Console.Clear();
+            Console.WriteLine("--- Добавление книги ---");
+            Console.Write("Введите название книги (обязательно): ");
+            string name = Console.ReadLine() ?? "";
+
+            Console.Write("Введите автора (Enter - пропустить): ");
+            string author = Console.ReadLine() ?? "";
+
+            Console.Write("Введите год издания (Enter - пропустить): ");
+            DateTime date = DateTime.MinValue;
+            string dateInput = Console.ReadLine() ?? "";
+            if (!string.IsNullOrWhiteSpace(dateInput))
+            {
+                if (int.TryParse(dateInput, out int year)) date = new DateTime(year, 1, 1);
+                else Console.WriteLine("Неверный формат года. Книга будет добавлена без даты.");
+            }
+
+            Console.Write("Введите жанр (Enter - пропустить): ");
+            string genre = Console.ReadLine() ?? "";
+
+            try
+            {
+                library.Add(new Book { Name = name, Author = author, PublisDate = date, Genre = genre });
+                Console.WriteLine("\nКнига успешно добавлена!");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"\nОшибка: {ex.Message}");
+            }
+            Console.WriteLine("Нажмите любую клавишу для возврата в меню...");
+            Console.ReadKey();
+        }
+
+        static void DeleteBookMenu(Library library)
+        {
+            Console.Clear();
+            Console.WriteLine("--- Удаление книги ---");
+            Console.Write("Введите название книги для удаления: ");
+            string name = Console.ReadLine() ?? "";
+            Console.Write("Введите автора книги для удаления: ");
+            string author = Console.ReadLine() ?? "";
+
+            library.Delete(name, author);
+            Console.WriteLine("\nОперация удаления завершена.");
+            Console.WriteLine("Нажмите любую клавишу для возврата в меню...");
+            Console.ReadKey();
+        }
+
+        static void FindBooksMenu(Library library)
+        {
+            Console.Clear();
+            Console.WriteLine("--- Поиск книг ---");
+            Console.Write("Искать по названию (Enter - пропустить): ");
+            string name = Console.ReadLine() ?? "";
+
+            Console.Write("Искать по автору (Enter - пропустить): ");
+            string author = Console.ReadLine() ?? "";
+
+            Console.Write("Искать по году (Enter - пропустить): ");
+            DateTime date = DateTime.MinValue;
+            string dateInput = Console.ReadLine() ?? "";
+            if (!string.IsNullOrWhiteSpace(dateInput) && int.TryParse(dateInput, out int year))
+            {
+                date = new DateTime(year, 1, 1);
+            }
+
+            Console.Write("Искать по жанру (Enter - пропустить): ");
+            string genre = Console.ReadLine() ?? "";
+
+            List<Book> found = library.Find(name, author, date, genre);
+
+            Console.WriteLine($"\n--- Найдено книг: {found.Count} ---");
+            foreach (var book in found)
+            {
+                Console.WriteLine(book.ToString());
+            }
+
+            Console.WriteLine("\nНажмите любую клавишу для возврата в меню...");
+            Console.ReadKey();
+        }
+
+        static void SortBooksMenu(Library library)
+        {
+            Console.Clear();
+            Console.WriteLine("--- Сортировка книг ---");
+            Console.WriteLine("По какому полю сортировать?");
+            Console.WriteLine("1. Название");
+            Console.WriteLine("2. Автор");
+            Console.WriteLine("3. Год");
+            Console.WriteLine("4. Жанр");
+            Console.Write("Ваш выбор: ");
+
+            string choice = Console.ReadLine();
+            switch (choice)
+            {
+                case "1": library.SortByName(); break;
+                case "2": library.SortByAuthor(); break;
+                case "3": library.SortByDate(); break;
+                case "4": library.SortByGenre(); break;
+                default:
+                    Console.WriteLine("\nНеверный ввод.");
+                    Console.WriteLine("Нажмите любую клавишу для возврата в меню...");
+                    Console.ReadKey();
+                    return;
+            }
+            Console.WriteLine("\nСортировка выполнена.");
+            Console.WriteLine("Нажмите любую клавишу для просмотра списка...");
+            Console.ReadKey();
+            ShowAllBooks(library);
+        }
+
+        static void ShowAllBooks(Library library)
+        {
+            Console.Clear();
+            Book[] allBooks = library.GetAllBooks();
+            Console.WriteLine($"--- Всего книг в библиотеке: {allBooks.Length} ---\n");
+
+            if (allBooks.Length == 0)
+            {
+                Console.WriteLine("Библиотека пуста.");
+            }
+            else
+            {
+                foreach (var book in allBooks) Console.WriteLine(book.ToString());
+            }
+            Console.WriteLine("\nНажмите любую клавишу для возврата в меню...");
+            Console.ReadKey();
+        }
     }
 }
