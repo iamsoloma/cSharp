@@ -1,0 +1,17 @@
+<Solution>
+  <Folder Name="/lab0/">
+    <Project Path="lab0/cSharp.csproj" />
+  </Folder>
+  <Folder Name="/lab1/">
+    <Project Path="lab1/cSharp.csproj" />
+  </Folder>
+  <Folder Name="/lab2/">
+    <Project Path="lab2/cSharp.csproj" />
+  </Folder>
+  <Folder Name="/lecture1/">
+    <Project Path="lecture1/cSharp.csproj" />
+  </Folder>
+  <Folder Name="/lecture2/">
+    <Project Path="lecture2/cSharp.csproj" />
+  </Folder>
+</Solution>
