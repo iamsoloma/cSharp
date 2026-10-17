@@ -73,9 +73,9 @@ public class String
         return new String(result);
     }
 
-    public static String operator +(char c, String? s)
+    public static String operator +(char c, String s)
     {
-        if (s is null)
+        if (s == string.Empty)
         {
             return new String(c);
         }
@@ -110,7 +110,7 @@ public class String
 
     //сравнение
 
-    public bool Compare(String? comparable, int index, int lenght = 0)
+    public bool Compare(String comparable, int index, int lenght = 0)
     {
 
         if (index < 0 || comparable is null || index > value.Length)
@@ -144,7 +144,7 @@ public class String
         return true;
     }
 
-    public override bool Equals(object? obj)
+    public override bool Equals(object obj)
     {
         if (obj is not String v) return false;
 
@@ -163,7 +163,7 @@ public class String
 
 
     //Операторы сравнения
-    public static bool operator ==(String? left, String? right)
+    public static bool operator ==(String left, String right)
     {
         if (left is null && right is null)
         {
@@ -177,7 +177,7 @@ public class String
         return left.Equals(right);
     }
 
-    public static bool operator !=(String? left, String? right)
+    public static bool operator !=(String left, String right)
     {
         return !(left == right);
     }
