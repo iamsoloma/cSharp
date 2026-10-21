@@ -8,6 +8,9 @@
   <Folder Name="/lab2/">
     <Project Path="lab2/cSharp.csproj" />
   </Folder>
+  <Folder Name="/lab3/">
+    <Project Path="lab3/cSharp.csproj" />
+  </Folder>
   <Folder Name="/lecture1/">
     <Project Path="lecture1/cSharp.csproj" />
   </Folder>
