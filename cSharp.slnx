@@ -17,4 +17,7 @@
   <Folder Name="/lecture2/">
     <Project Path="lecture2/cSharp.csproj" />
   </Folder>
+  <Folder Name="/lecture3/">
+    <Project Path="lecture3/cSharp.csproj" />
+  </Folder>
 </Solution>
