@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfBuilding xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Building xsi:type="ResidentialBuilding">
+    <Address>г. Челябинск, ул.Университетская Набережная, 81.1</Address>
+    <CountOfFlats>1400</CountOfFlats>
+    <RoomsPerFlat>2</RoomsPerFlat>
+  </Building>
+  <Building xsi:type="ResidentialBuilding">
+    <Address>г.Челябинск, ул. Салават Юлаева, 33.1</Address>
+    <CountOfFlats>546</CountOfFlats>
+    <RoomsPerFlat>3</RoomsPerFlat>
+  </Building>
+  <Building xsi:type="NonResidentialBuilding">
+    <Address>г. Челябинск, ул. Кожзаводская, 96</Address>
+    <Area>5130</Area>
+  </Building>
+  <Building xsi:type="ResidentialBuilding">
+    <Address>г. Челябинск, ул. 40-летия Победы, 36</Address>
+    <CountOfFlats>240</CountOfFlats>
+    <RoomsPerFlat>2</RoomsPerFlat>
+  </Building>
+  <Building xsi:type="NonResidentialBuilding">
+    <Address>г.Челябинск, ул. Труда, 157</Address>
+    <Area>2488</Area>
+  </Building>
+  <Building xsi:type="NonResidentialBuilding">
+    <Address>г. Челябинск, Троицкий Тракт, 4к3</Address>
+    <Area>720</Area>
+  </Building>
+  <Building xsi:type="NonResidentialBuilding">
+    <Address>г. Челябинск, Цветной Бульвар, 16</Address>
+    <Area>377</Area>
+  </Building>
+</ArrayOfBuilding>
