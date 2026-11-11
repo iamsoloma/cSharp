@@ -5,7 +5,7 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>
-    <StartupObject>cSharp.Program</StartupObject>
+    <StartupObject>lecture4.Parralel</StartupObject>
   </PropertyGroup>
 
 </Project>
