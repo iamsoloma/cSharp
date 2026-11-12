@@ -101,7 +101,7 @@ public class WebScanner : IDisposable
 
 internal class Program
 {
-    static async Task Main(string[] args)
+    static void Main(string[] args)
     {
         using (WebScanner scanner = new WebScanner())
         {
@@ -116,7 +116,7 @@ internal class Program
             };
 
 
-            await scanner.ScanAsync(new Uri("https://www.susu.ru"), 10);
+            scanner.ScanAsync(new Uri("https://www.susu.ru"), 10).GetAwaiter().GetResult();
             Console.WriteLine("Done.");
         }
     }
