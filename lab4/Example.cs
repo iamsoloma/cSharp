@@ -2,16 +2,23 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Net;
+using System.Net.Http;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace example;
 
 public class WebScanner : IDisposable
 {
     private readonly HashSet<Uri> _procLinks = new HashSet<Uri>();
-    private readonly WebClient _webClient = new WebClient();
+    private readonly HttpClient _httpClient = new HttpClient();
 
+    public WebScanner()
+    {
+        // Без User-Agent сайт www.susu.ru отвечает 403 Forbidden (после редиректа на /en)
+        _httpClient.DefaultRequestHeaders.UserAgent.ParseAdd(
+            "Mozilla/5.0 (X11; Linux x86_64; rv:120.0) Gecko/20100101 Firefox/120.0");
+    }
 
     private readonly HashSet<string> _ignoredFiles = new HashSet<string> { ".ico", ".xml" };
     private void OnTargetFound(Uri page, Uri[] links)
@@ -19,7 +26,7 @@ public class WebScanner : IDisposable
         TargetFound?.Invoke(page, links);
     }
 
-    private void Process(string domain, Uri page, int count)
+    private async Task ProcessAsync(string domain, Uri page, int count)
     {
         if (count <= 0) return;
 
@@ -30,9 +37,9 @@ public class WebScanner : IDisposable
         string html;
         try
         {
-            html = _webClient.DownloadString(page);
+            html = await _httpClient.GetStringAsync(page);
         }
-        catch (WebException)
+        catch (HttpRequestException)
         {
             return;
         }
@@ -72,29 +79,29 @@ public class WebScanner : IDisposable
             string fileEx = Path.GetExtension(href.LocalPath).ToLower();
             if (_ignoredFiles.Contains(fileEx)) continue;
 
-            Process(domain, href, count - 1);
+            await ProcessAsync(domain, href, count - 1);
         }
     }
 
     public event Action<Uri, Uri[]> TargetFound;
 
-    public void Scan(Uri startPage, int pageCount)
+    public async Task ScanAsync(Uri startPage, int pageCount)
     {
         _procLinks.Clear();
 
         string domain = $"{startPage.Scheme}://{startPage.Host}";
-        Process(domain, startPage, pageCount);
+        await ProcessAsync(domain, startPage, pageCount);
     }
 
     public void Dispose()
     {
-        _webClient.Dispose();
+        _httpClient.Dispose();
     }
 }
 
 internal class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         using (WebScanner scanner = new WebScanner())
         {
@@ -109,7 +116,7 @@ internal class Program
             };
 
 
-            scanner.Scan(new Uri("https://www.susu.ru"), 10);
+            await scanner.ScanAsync(new Uri("https://www.susu.ru"), 10);
             Console.WriteLine("Done.");
         }
     }
