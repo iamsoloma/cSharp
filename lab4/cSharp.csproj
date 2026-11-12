@@ -5,6 +5,8 @@
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>disable</ImplicitUsings>
     <Nullable>disable</Nullable>
+    <!-- Точка входа: Main из Program.cs (lab4), а не из Example.cs (example) -->
+    <StartupObject>lab4.Program</StartupObject>
   </PropertyGroup>
 
 </Project>
