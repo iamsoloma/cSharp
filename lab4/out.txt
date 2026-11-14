@@ -1,0 +1,221 @@
+[1] Архитектурно-строительный институт -> https://www.susu.ru/ru/arhitekturno-stroitelnyy-institut
+	Телефон: (351) 267-91-71
+[1] Архитектурно-строительный институт -> https://www.susu.ru/ru/arhitekturno-stroitelnyy-institut
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Высшая медико-биологическая школа -> https://www.susu.ru/ru/vysshaya-mediko-biologicheskaya-shkola
+	Телефон: (351) 267-96-87
+[1] Высшая медико-биологическая школа -> https://www.susu.ru/ru/vysshaya-mediko-biologicheskaya-shkola
+	Телефон: (351) 267-93-64
+[1] Высшая медико-биологическая школа -> https://www.susu.ru/ru/vysshaya-mediko-biologicheskaya-shkola
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Высшая медико-биологическая школа -> https://www.susu.ru/ru/vysshaya-mediko-biologicheskaya-shkola
+	Адрес: 548080, г. Челябинск, пр. Ленина, 85
+[1] Высшая школа экономики и управления -> https://www.susu.ru/ru/vysshaya-shkola-ekonomiki-upravleniya
+	Телефон: (351) 267-98-76
+[1] Высшая школа экономики и управления -> https://www.susu.ru/ru/vysshaya-shkola-ekonomiki-upravleniya
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Высшая школа электроники и компьютерных наук -> https://www.susu.ru/ru/vysshaya-shkola-elektroniki-kompyuternyh-nauk
+	Телефон: (351) 267-90-94
+[1] Высшая школа электроники и компьютерных наук -> https://www.susu.ru/ru/vysshaya-shkola-elektroniki-kompyuternyh-nauk
+	Адрес: 454080, г. Челябинск, пр. Ленина, 87
+[1] Институт лингвистики и международных коммуникаций -> https://www.susu.ru/ru/university/departments/educational/institutes/ilic
+	Телефон: (351) 272-32-42
+[1] Институт лингвистики и международных коммуникаций -> https://www.susu.ru/ru/university/departments/educational/institutes/ilic
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Институт медиа и социально-гуманитарных наук -> https://www.susu.ru/ru/institut-socialno-gumanitarnyh-nauk
+	Телефон: +7 (351) 267-90-29
+[1] Институт медиа и социально-гуманитарных наук -> https://www.susu.ru/ru/institut-socialno-gumanitarnyh-nauk
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Институт естественных и точных наук -> https://www.susu.ru/ru/institut-estestvennyh-tochnyh-nauk
+	Телефон: (351) 267-91-15
+[1] Институт естественных и точных наук -> https://www.susu.ru/ru/institut-estestvennyh-tochnyh-nauk
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Институт спорта, туризма и сервиса -> https://www.susu.ru/ru/university/departments/educational/institutes/institute-sport-tourism-and-service
+	Телефон: (351) 267-98-49
+[1] Институт спорта, туризма и сервиса -> https://www.susu.ru/ru/university/departments/educational/institutes/institute-sport-tourism-and-service
+	Телефон: (351) 267-92-76
+[1] Институт спорта, туризма и сервиса -> https://www.susu.ru/ru/university/departments/educational/institutes/institute-sport-tourism-and-service
+	Адрес: 454080, г. Челябинск, ул. Сони Кривой, 60
+[1] Политехнический институт -> https://www.susu.ru/ru/politehnicheskiy-institut
+	Телефон: +7 (351) 272-34-44
+[1] Политехнический институт -> https://www.susu.ru/ru/politehnicheskiy-institut
+	Телефон: +7 (351) 267-92-65
+[1] Политехнический институт -> https://www.susu.ru/ru/politehnicheskiy-institut
+	Телефон: +7 (351) 267-91-61
+[1] Политехнический институт -> https://www.susu.ru/ru/politehnicheskiy-institut
+	Телефон: +7 (351) 267-92-52
+[1] Политехнический институт -> https://www.susu.ru/ru/politehnicheskiy-institut
+	Телефон: +7 (351) 267-92-51
+[1] Политехнический институт -> https://www.susu.ru/ru/politehnicheskiy-institut
+	Телефон: (351) 265-64-80
+[1] Политехнический институт -> https://www.susu.ru/ru/politehnicheskiy-institut
+	Телефон: +7 (351)272-31-51
+[1] Политехнический институт -> https://www.susu.ru/ru/politehnicheskiy-institut
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Юридический институт -> https://www.susu.ru/ru/yuridicheskiy-institut
+	Телефон: +7 (351) 267-93-41
+[1] Юридический институт -> https://www.susu.ru/ru/yuridicheskiy-institut
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Департамент по работе с абитуриентами -> https://abit.susu.ru/
+	Телефон: 8-351-267-94-52
+[1] Департамент по работе с абитуриентами -> https://abit.susu.ru/
+	Телефон: 8-800-300-00-55
+[1] Департамент по работе с абитуриентами -> https://abit.susu.ru/
+	Адрес: пр. Ленина, д. 76
+[1] Департамент по работе с абитуриентами -> https://abit.susu.ru/
+	Адрес: пр. Ленина, 76
+[1] Военный учебный центр -> https://vuc.susu.ru/
+	Телефон: (351) 232-97-15
+[1] Военный учебный центр -> https://vuc.susu.ru/
+	Телефон: (351) 232-97-23
+[1] Центр развития промышленной робототехники -> https://www.susu.ru/ru/nauka-i-innovacii/centr-razvitiya-promyshlennoy-robototehniki
+	Телефон: +7 (951) 457-55-46
+[1] Центр развития промышленной робототехники -> https://www.susu.ru/ru/nauka-i-innovacii/centr-razvitiya-promyshlennoy-robototehniki
+	Телефон: +7 (912) 302-66-16
+[1] ПИШ "Сердце Урала" -> https://engineers2030.susu.ru/
+	Телефон: +7 (351) 272-33-90
+[1] Цифровой Урал -> https://it.susu.ru/
+	Телефон: +7 (351) 267-94-21
+[1] ВиртУм -> https://ietn.susu.ru/virtum/
+	Телефон: +7 351 267-98-61
+[1] ВиртУм -> https://ietn.susu.ru/virtum/
+	Телефон: +7 951 111-17-58
+[1] ВиртУм -> https://ietn.susu.ru/virtum/
+	Телефон: +7 (351) 267-91-15
+[1] ВиртУм -> https://ietn.susu.ru/virtum/
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Факультет "Машиностроение и технологии" -> https://polytech.susu.ru/mt/
+	Телефон: 8-800-300-00-55
+[1] Факультет "Машиностроение и технологии" -> https://polytech.susu.ru/mt/
+	Телефон: +7 908 053 67 50
+[1] Факультет "Машиностроение и технологии" -> https://polytech.susu.ru/mt/
+	Телефон: +7-908-053-67-50
+[1] Факультет "Машиностроение и технологии" -> https://polytech.susu.ru/mt/
+	Телефон: +7 (351) 272-34-44
+[1] Факультет "Мехатроника и робототехника" -> https://aep.susu.ru/
+	Телефон: +7 (351) 272-32-30
+[1] Факультет "Мехатроника и робототехника" -> https://aep.susu.ru/
+	Адрес: пр. Ленина 76
+[1] Архитектурно-строительный институт -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut
+	Телефон: (351) 267-91-71
+[1] Архитектурно-строительный институт -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Архитектура -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/arhitektura
+	Телефон: (351) 267-95-61
+[1] Архитектура -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/arhitektura
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Градостроительство, инженерные сети и системы -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/gradostroitelstvo-inzhenernye-seti-i-sistemy
+	Телефон: (351) 267-91-44
+[1] Градостроительство, инженерные сети и системы -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/gradostroitelstvo-inzhenernye-seti-i-sistemy
+	Адрес: 454080, г. Челябинск, ул. Коммуны, 141
+[1] Дизайн и изобразительные искусства -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/dizayn-i-izobrazitelnye-iskusstva
+	Телефон: (351) 267-92-69
+[1] Дизайн и изобразительные искусства -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/dizayn-i-izobrazitelnye-iskusstva
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Инженерная и компьютерная графика -> https://www.susu.ru/ru/structure-2016/arhitekturno-stroitelnyy-institut/kafedry/inzhenernaya-i-kompyuternaya-grafika
+	Телефон: (351) 267-92-60
+[1] Инженерная и компьютерная графика -> https://www.susu.ru/ru/structure-2016/arhitekturno-stroitelnyy-institut/kafedry/inzhenernaya-i-kompyuternaya-grafika
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Строительное производство и теория сооружений -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/stroitelnoe-proizvodstvo-i-teoriya-sooruzheniy
+	Телефон: (351) 267-91-83
+[1] Строительное производство и теория сооружений -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/stroitelnoe-proizvodstvo-i-teoriya-sooruzheniy
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Строительные конструкции и сооружения -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/stroitelnye-konstrukcii-i-sooruzheniya
+	Телефон: (351) 267-93-73
+[1] Строительные конструкции и сооружения -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/stroitelnye-konstrukcii-i-sooruzheniya
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Строительные материалы и изделия -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/stroitelnye-materialy-i-izdeliya
+	Телефон: (351) 267-94-72
+[1] Строительные материалы и изделия -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/kafedry/stroitelnye-materialy-i-izdeliya
+	Адрес: 454080, г. Челябинск, ул. Коммуны, 141
+[1] УНЦ «Строительство» -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/laboratorii-i-centry/unc-stroitelstvo
+	Телефон: +7 (351) 267-93-35
+[1] УНЦ «Строительство» -> https://www.susu.ru/ru/structure/arhitekturno-stroitelnyy-institut/laboratorii-i-centry/unc-stroitelstvo
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Высшая медико-биологическая школа -> https://www.susu.ru/ru/structure/vysshaya-mediko-biologicheskaya-shkola
+	Телефон: (351) 267-96-87
+[1] Высшая медико-биологическая школа -> https://www.susu.ru/ru/structure/vysshaya-mediko-biologicheskaya-shkola
+	Телефон: (351) 267-93-64
+[1] Высшая медико-биологическая школа -> https://www.susu.ru/ru/structure/vysshaya-mediko-biologicheskaya-shkola
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Высшая медико-биологическая школа -> https://www.susu.ru/ru/structure/vysshaya-mediko-biologicheskaya-shkola
+	Адрес: 548080, г. Челябинск, пр. Ленина, 85
+[1] Клиническая психология -> https://www.susu.ru/ru/university/departments/educational/medical-school/departments/klinicheskaya-psihologiya
+	Телефон: (351) 267-97-58
+[1] Общая биология и дифференциальная психология -> https://www.susu.ru/ru/university/departments/educational/medical-school/departments/obshchaya-biologiya-i-differencialnaya
+	Телефон: (351) 267-96-87
+[1] Общая биология и дифференциальная психология -> https://www.susu.ru/ru/university/departments/educational/medical-school/departments/obshchaya-biologiya-i-differencialnaya
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Пищевые и биотехнологии -> https://www.susu.ru/ru/university/departments/educational/medical-school/departments/pishchevye-i-biotehnologii
+	Телефон: (351) 267-93-80
+[1] Пищевые и биотехнологии -> https://www.susu.ru/ru/university/departments/educational/medical-school/departments/pishchevye-i-biotehnologii
+	Адрес: 454080, г. Челябинск, пр. Ленина, 85
+[1] Психология управления и служебной деятельности -> https://www.susu.ru/ru/university/departments/educational/medical-school/departments/psihologiya-upravleniya-i-sluzhebnoy
+	Телефон: +7(351)267-98-96
+[1] Психология управления и служебной деятельности -> https://www.susu.ru/ru/university/departments/educational/medical-school/departments/psihologiya-upravleniya-i-sluzhebnoy
+	Телефон: +7(351)267-99-81
+[1] Психология управления и служебной деятельности -> https://www.susu.ru/ru/university/departments/educational/medical-school/departments/psihologiya-upravleniya-i-sluzhebnoy
+	Адрес: 454080, г. Челябинск, пр. Ленина, 85
+[1] Высшая школа экономики и управления -> https://www.susu.ru/ru/structure/vysshaya-shkola-ekonomiki-i-upravleniya
+	Телефон: (351) 267-98-76
+[1] Высшая школа экономики и управления -> https://www.susu.ru/ru/structure/vysshaya-shkola-ekonomiki-i-upravleniya
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Высшая школа электроники и компьютерных наук -> https://www.susu.ru/ru/university/structure/electronics-higher-school
+	Телефон: (351) 267-90-94
+[1] Высшая школа электроники и компьютерных наук -> https://www.susu.ru/ru/university/structure/electronics-higher-school
+	Адрес: 454080, г. Челябинск, пр. Ленина, 87
+[1] Программа двойной аспирантуры -> https://www.susu.ru/ru/university/structure/electronics-higher-school/mezhdunarodnye-proekty/programma-dvoynoy-aspirantury
+	Телефон: (351) 267-99-35
+[1] Программа двойной аспирантуры -> https://www.susu.ru/ru/university/structure/electronics-higher-school/mezhdunarodnye-proekty/programma-dvoynoy-aspirantury
+	Адрес: 454080, г. Челябинск, пр. Ленина, 87
+[1] Институт естественных и точных наук -> https://www.susu.ru/ru/structure/institut-estestvennyh-i-tochnyh-nauk
+	Телефон: (351) 267-91-15
+[1] Институт естественных и точных наук -> https://www.susu.ru/ru/structure/institut-estestvennyh-i-tochnyh-nauk
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Институт лингвистики и международных коммуникаций -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy
+	Телефон: (351) 272-32-42
+[1] Институт лингвистики и международных коммуникаций -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Телефон: +7 (922) 804 59 50
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Телефон: +7 (951) 233 01 29
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Телефон: (351) 272-32-09
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Телефон: (351) 272-31-57
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Телефон: (351) 267-97-51
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Телефон: (351) 267-93-15
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Телефон: (351) 272 32 60
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Телефон: +7 (902) 605-72-17
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Лаборатории и центры -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry
+	Адрес: 454080, Челябинск, пр. Ленина, 76
+[1] Офис академического письма -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry/ofis
+	Телефон: +7 (351) 272-31-57
+[1] Офис академического письма -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/laboratorii-i-centry/ofis
+	Адрес: 454080, г. Челябинск, пр. Ленина, 76
+[1] Курсы -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/struktura-instituta/cdo-kursy/kursy
+	Телефон: (351) 267-99-78
+[1] Курсы -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/struktura-instituta/cdo-kursy/kursy
+	Телефон: (351) 267-98-45
+[1] Курсы -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/struktura-instituta/cdo-kursy/kursy
+	Адрес: пр.Ленина 76
+[1] Курсы повышения квалификации -> https://www.susu.ru/ru/povyshenie_kvalifikacii/struktura/kafedra_lingvistika_i_mezhkulturnaja_kommunikacija/kursy_povyshenija_kvalifikacii
+	Телефон: (351) 267-99-78
+[1] Курсы повышения квалификации -> https://www.susu.ru/ru/povyshenie_kvalifikacii/struktura/kafedra_lingvistika_i_mezhkulturnaja_kommunikacija/kursy_povyshenija_kvalifikacii
+	Телефон: (351) 267-98-45
+[1] Курсы повышения квалификации -> https://www.susu.ru/ru/povyshenie_kvalifikacii/struktura/kafedra_lingvistika_i_mezhkulturnaja_kommunikacija/kursy_povyshenija_kvalifikacii
+	Адрес: пр.Ленина 76
+[1] Переподготовка -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/struktura-instituta/cdo-kursy-0
+	Телефон: (351) 267-99-78
+[1] Переподготовка -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/struktura-instituta/cdo-kursy-0
+	Телефон: (351) 267-98-45
+[1] Переподготовка -> https://www.susu.ru/ru/structure/institut-lingvistiki-i-mezhdunarodnyh-kommunikaciy/struktura-instituta/cdo-kursy-0
+	Адрес: пр.Ленина 76
+Done.

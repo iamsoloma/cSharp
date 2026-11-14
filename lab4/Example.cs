@@ -116,7 +116,7 @@ internal class Program
             };
 
 
-            scanner.ScanAsync(new Uri("https://www.susu.ru"), 10).GetAwaiter().GetResult();
+            scanner.ScanAsync(new Uri("https://www.susu.ru"), 2).GetAwaiter().GetResult();
             Console.WriteLine("Done.");
         }
     }
